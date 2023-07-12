@@ -1,8 +1,13 @@
-import React from 'react'
-
+// import React from 'react'
+import Header from '../components/header'
+import FloatingButton from '../components/core/floatingButton'
 function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <>
+      <Header/>
+      <FloatingButton/>
+      dashboard
+    </>
   )
 }
 
