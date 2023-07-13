@@ -10,15 +10,17 @@ import {
 } from "@material-tailwind/react";
 import { XMarkIcon } from "@heroicons/react/24/solid";
 
- function FloatingButton() {
+function FloatingButton() {
   const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => setOpen(!open);
 
   return (
     <React.Fragment>
-      <Button className='text-black bg-blue-500' onClick={handleOpen}>
-        Message Dialog
+      <Button className='p-3 text-black bg-blue-500 rounded-full ' onClick={handleOpen}>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+        </svg>
       </Button>
       <Dialog open={open} handler={handleOpen}>
         <div className="flex items-center justify-between">
