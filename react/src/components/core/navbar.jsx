@@ -20,7 +20,7 @@ function NavbarGuest() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <NavLink style={{navLinkStyle}} to='/trang-chu' className="flex items-center" >
+        <NavLink style={{navLinkStyle}} to='/' className="flex items-center" >
           Trang Chủ
         </NavLink>
       </Typography>

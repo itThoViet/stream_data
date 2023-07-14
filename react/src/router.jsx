@@ -11,7 +11,7 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     children: [
       {
-        path: "/trang-chu",
+        path: "/",
         element: <MainDashboard/>
 
       },
