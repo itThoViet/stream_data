@@ -16,7 +16,7 @@ function Header() {
   }, []);
 
   return (
-    <Navbar className="w-full max-w-full px-4 py-2 mx-auto bg-yellow-700 rounded-none lg:px-8 lg:py-4">
+    <Navbar className="w-full max-w-full px-4 py-2 mx-auto bg-gray-900 rounded-none lg:px-8 lg:py-4">
       <div className="container flex items-center justify-between mx-auto text-blue-gray-900">
         <Typography
           as="a"
